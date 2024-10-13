@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div class="top-nav">
+      <div class="container d-flex">
+        <p>¿Tienes problemas ordenando Online? escribe al: +57 300 0000000</p>
+        <ul class="d-flex">
+          <li><a href="#">Sobre Nosotros</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <a href="index.html" class="logo"><h1>Vintuer</h1></a>
+
+        <ul class="nav-list d-flex">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Casa</a>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a href="#diseños" class="nav-link">Diseños</a>
+          </li>
+          <li class="nav-item">
+            <a href="#personalizar" class="nav-link">Personalizar</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+          <li class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">!</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="icons d-flex">
+          <a href="login.html" class="icon">
+            <i class="bx bx-user"></i>
+          </a>
+          <div class="icon">
+            <i class="bx bx-search"></i>
+          </div>
+          <a href="cart.html" class="icon">
+            <i class="bx bx-cart"></i>
+            <span class="d-flex">!</span>
+          </a>
+        </div>
+
+        <div class="hamburger">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Login -->
+    <div class="container">
+      <div class="login-form">
+        <form action="">
+          <h1>Login</h1>
+          <p>
+            Already have an account? Login in or
+            <a href="signup.html">Sign Up</a>
+          </p>
+
+          <label for="email">Email</label>
+          <input type="text" placeholder="Enter Email" name="email" required />
+
+          <label for="psw">Password</label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            required
+          />
+
+          <label for="psw-repeat">Repeat Password</label>
+          <input
+            type="password"
+            placeholder="Repeat Password"
+            name="psw-repeat"
+            required
+          />
+
+          <label>
+            <input
+              type="checkbox"
+              checked="checked"
+              name="remember"
+              style="margin-bottom: 15px"
+            />
+            Remember me
+          </label>
+
+          <p>
+            By creating an account you agree to our
+            <a href="#">terminos & Privacy</a>.
+          </p>
+
+          <div class="buttons">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+          <h4>INFORMATION</h4>
+          <a href="">Sobre Nosotros</a>
+          <a href="contact.html">Contactanos</a>
+          <a href="">Terminos y condiciones</a>
+          <a href="">Guia de compra</a>
+        </div>
+        <div class="col d-flex">
+          <h4>VINTUER</h4>
+          <a href="">"Nadie te conoce mejor que tú"</a>
+        </div>
+        <div class="col d-flex">
+          <span><i class="bx bxl-facebook-square"></i></span>
+          <span><i class="bx bxl-instagram-alt"></i></span>
+          <span><i class="bx bxl-github"></i></span>
+          <span><i class="bx bxl-twitter"></i></span>
+          <span><i class="bx bxl-pinterest"></i></span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
